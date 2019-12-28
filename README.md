@@ -25,4 +25,4 @@ https://navillacreces.github.io/search-giphy/
 
 
 
-![gif on tablet](/images/mobile.gif "search giphy on tablet")
+![gif on tablet](/images/tablet.gif "search giphy on tablet")
