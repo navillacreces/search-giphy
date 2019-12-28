@@ -1,6 +1,6 @@
 # Search Giphy
 
-![giphyapilogo](/images/giphyLogoLight.gif "api used")
+![giphyapilogo](/images/giphyLogoLight.png "api used")
 
 ###### Search giphy is an app that allows users to search and share gifs using the Giphy.com API.
 
@@ -25,4 +25,4 @@ https://navillacreces.github.io/search-giphy/
 
 
 
-![gif on tablet](/images/tablet.gif "search giphy on tablet")
+![gif on tablet](/images/Tablet.gif "search giphy on tablet")
