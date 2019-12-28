@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Search Gifs with Giphy API</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Serach Giphy</h1>
+    </header>
+    <nav>
+      <form class="serachForm" id="myForm">
+          <input type="text" placeholder="search GIFS" id="user-input">
+          <input type="submit" value="Search" id="submit-button">
+          <button type="button" id="random-button" value="random">Random</button>
+          <button type="button" id="trending-button" value="trending">Trending</button>
+      </form>
+    </nav>
+
+    <div class="intro"><h2>Let's find some Gifs</h2></div>
+
+    <div class="single-result-div">
+      <ul class="single-random-result">
+      </ul>
+    </div>
+    <div class="div-list">
+      <ul class="my-results-list" id="my-results-list">
+      </ul>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+
+  <footer>
+    <div class="image-flex">
+      <img src="/images/giphy2.png" id="giphy-footer" alt="giphy-image">
+    </div>
+  </footer>
+
+  </body>
+</html>
