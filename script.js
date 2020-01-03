@@ -181,7 +181,7 @@ function formatQueryParams(params) {
     });
   
   }
-  const myKey = "";
+  const myKey = "WWJUgTlwlv3O3ygkvY8EdqgSvFweLsMK";
   
   function runTheApp(){
     
