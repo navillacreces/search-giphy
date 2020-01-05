@@ -183,7 +183,10 @@ function formatQueryParams(params) {
     });
   
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7a7630b8543ac75b8beda516a94d06b536e5e860
   
   function runTheApp(){
     
