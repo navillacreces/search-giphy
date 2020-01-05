@@ -1,3 +1,5 @@
+const myKey = "WWJUgTlwlv3O3ygkvY8EdqgSvFweLsMK";
+
 /* formats query */
 function formatQueryParams(params) {
     const queryItems = Object.keys(params)
@@ -181,7 +183,6 @@ function formatQueryParams(params) {
     });
   
   }
-  const myKey = "WWJUgTlwlv3O3ygkvY8EdqgSvFweLsMK";
   
   function runTheApp(){
     
