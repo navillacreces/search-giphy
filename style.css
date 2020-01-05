@@ -95,6 +95,15 @@ h2{
     padding-bottom: 15px;
     align-items: center;
 }
+
+.serachForm > button{
+   
+    padding-left: 1px;
+    padding-right: 1px;
+
+}
+
+
 @media (min-width: 481px) and (max-width: 768px){
     li > img{
         width: 100%;
