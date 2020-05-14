@@ -28,6 +28,16 @@ body{
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
 }
+
+#submit-button, #random-button, #trending-button{
+    
+    
+    background: yellow;
+    color: black;
+    border-radius: 5px;
+}
+
+
 #myForm{
     display: flex;
     justify-content: center;
@@ -81,6 +91,7 @@ li > img{
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
 }
 h2{
     text-align: center;
