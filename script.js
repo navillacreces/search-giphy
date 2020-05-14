@@ -59,7 +59,7 @@ function formatQueryParams(params) {
   
     let numOfObjReturned = 25;
    
-    for(x=0; x < numOfObjReturned; x++){
+    for(let x=0; x < numOfObjReturned; x++){
       
   
      $("#my-results-list").append(`
