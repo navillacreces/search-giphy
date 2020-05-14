@@ -53,8 +53,7 @@ function formatQueryParams(params) {
 
 
     if(responseJsonObj.data.length === 0){
-        $('.intro').show();
-        $('h2').html("Invalid Serach");
+       window.alert('invalid serach')
     }
   
     let numOfObjReturned = 25;
@@ -65,7 +64,7 @@ function formatQueryParams(params) {
      $("#my-results-list").append(`
         <li>
         <img src="${responseJsonObj.data[x].images.original.url}" 
-        alt="aGif" >
+        alt="${responseJsonObj.data.title}" >
         <div class="display-info">
         <button type="button" onclick="copyToClipboard()"  class="btn" id="copy-button btn" data-clipboard-text="${responseJsonObj.data[x].bitly_url}">copy to clipboard</button>
         </div>
@@ -79,8 +78,7 @@ function formatQueryParams(params) {
       event.preventDefault();
       const value = $('#user-input').val();
       if (value === ""){
-        $('.intro').show();
-        $('h2').html("You have to give a search term first.");
+        window.alert('please enter a valid serach')
       } else{
       $('.intro').hide();
       clearList();
@@ -140,8 +138,7 @@ function formatQueryParams(params) {
       
       const value = $("#user-input").val();
       if (value === ""){
-        $('.intro').show();
-        $('h2').html("You have to give a search term first.");
+        window.alert('Please enter a search term too.')
       } else{
         $('.intro').hide();
         clearList();
