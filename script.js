@@ -50,6 +50,12 @@ function formatQueryParams(params) {
   
   /* results to dom */
   function displayData(responseJsonObj){
+
+
+    if(responseJsonObj.data.length === 0){
+        $('.intro').show();
+        $('h2').html("Invalid Serach");
+    }
   
     let numOfObjReturned = 25;
    
@@ -183,16 +189,31 @@ function formatQueryParams(params) {
     });
   
   }
-<<<<<<< HEAD
 
-=======
->>>>>>> 7a7630b8543ac75b8beda516a94d06b536e5e860
+  function connectionVerification(){
+
+    const isOnline = window.navigator.isOnline;
+
+    window.addEventListener('offline',offline)
+    
+
+    if (!isOnline){
+      offline()
+    } 
+
+    function offline(){
+      window.alert('you are not connected to the internet')
+    }
+    
+
+  }
   
   function runTheApp(){
     
     watchForm();
     userHitsRandom();
     userHitsTrending();
+    connectionVerification();
    
   }
   
